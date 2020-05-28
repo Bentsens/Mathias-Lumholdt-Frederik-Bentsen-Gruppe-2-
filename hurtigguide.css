@@ -1,0 +1,129 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  animation: transitionIn 1.5s;
+}
+
+@font-face {
+  font-family: nevis;
+  src: url(nevis.ttf);
+}
+
+@font-face {
+  font-family: supreme;
+  src: url(supreme.ttf);
+}
+
+#nav {
+  position: sticky;
+  top: 0;
+  z-index: 11;
+  background: #9146FF;
+  background: -webkit-linear-gradient(to right, #9146FF, #AF7DFF);
+  background: linear-gradient(to right, #9146FF, #AF7DFF);
+}
+
+#nav .navbar-brand {
+  font-family: nevis;
+}
+
+.nav-link {
+  font-family: supreme;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 80%;
+}
+
+.logo {
+  max-width: 150px;
+  margin-bottom: 5px;
+}
+
+body {
+  background-color: #F6F3F6;
+}
+
+/* breadcrumb */
+.breadcrumb {
+  background-color: #F6F3F6;
+}
+
+.breadcrumb-item {
+  font-family: supreme;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.breadcrumb-item a {
+  color: #AF7DFF;
+}
+
+/* ----------------------------------------------- */
+/* header */
+#headersection {
+  position: relative;
+  background-image: url(imgs/hurtigguidebanner.png);
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+  padding-top: 30vh;
+  padding-bottom: 5vh;
+  z-index: 10;
+}
+
+.header h1, .header h5 {
+  font-family: supreme;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+.header p {
+  color: white;
+  font-family: quicksand;
+}
+
+/* ---------------------------------------- */
+/* videotutorial */
+#videotutorialsection {
+  padding-top: 5vh;
+  padding-bottom: 20vh;
+}
+
+.videoguide h3, .videoguide h5 {
+  font-family: supreme;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  color: #26272b;
+}
+
+.videoguide p {
+  font-family: quicksand;
+  color: #26272b;
+}
+
+/* ---------------------------------------- */
+/*-------------- footer------------------- */
+.site-footer {
+  background-color: #26272b;
+  padding: 40px 0;
+  font-size: 15px;
+  line-height: 24px;
+  color: white;
+}
+
+.footersjov {
+  color: #efeded75;
+}
+
+.footerimg img {
+  height: 50px;
+}
+
+/* ------------------ */

@@ -1,0 +1,145 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  animation: transitionIn 1.5s;
+}
+
+@font-face {
+  font-family: nevis;
+  src: url(../nevis.ttf);
+}
+
+@font-face {
+  font-family: supreme;
+  src: url(../supreme.ttf);
+}
+
+/* nav */
+#nav {
+  position: sticky;
+  top: 0;
+  z-index: 11;
+  background: #9146FF;
+  background: -webkit-linear-gradient(to right, #9146FF, #AF7DFF);
+  background: linear-gradient(to right, #9146FF, #AF7DFF);
+}
+
+#nav .navbar-brand {
+  font-family: nevis;
+}
+
+.nav-link {
+  font-family: supreme;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 80%;
+}
+
+.logo {
+  max-width: 150px;
+  margin-bottom: 5px;
+}
+/* ----------------------------- */
+
+body {
+  background-color: #F6F3F6;
+}
+
+/* header */
+
+#headersection {
+  position: relative;
+  background-image: url(../imgs/softwarebanner.png);
+  background-repeat: no-repeat;
+  background-position: 50% 75%;
+  padding-top: 30vh;
+  padding-bottom: 5vh;
+  z-index: 10;
+}
+
+.header h1, .header h5 {
+  font-family: supreme;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+.header p {
+  color: white;
+  font-family: quicksand;
+}
+/* ---------------------------------------- */
+
+/* breadcrumb */
+.breadcrumb {
+  background-color: #F6F3F6;
+}
+
+.breadcrumb-item {
+  font-family: supreme;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.breadcrumb-item a {
+  color: #AF7DFF;
+}
+
+/* ----------------------------------------------- */
+
+/* articlesection */
+#articlesection {
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+}
+
+.articles h3, .articles h5 {
+  font-family: supreme;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  color: #26272b;
+}
+
+.sec2, .sec3, .sec4 {
+  margin-top: 5vh;
+}
+
+.articles p {
+  font-family: quicksand;
+}
+
+
+.imgcontainer img {
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+  padding: 30px;
+}
+
+/* --------------------------------------- */
+
+/*-------------- footer------------------- */
+.site-footer {
+  background-color: #26272b;
+  padding: 40px 0;
+  font-size: 15px;
+  line-height: 24px;
+  color: white;
+}
+
+.footersjov {
+  color: #efeded75;
+}
+
+.footerimg img {
+  height: 50px;
+}
+
+/* ------------------ */

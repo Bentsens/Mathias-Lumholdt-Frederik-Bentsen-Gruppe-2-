@@ -1,0 +1,320 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(.95);
+
+	}
+
+	50% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(.95);
+
+	}
+}
+
+@font-face {
+  font-family: nevis;
+  src: url(nevis.ttf);
+}
+
+@font-face {
+  font-family: supreme;
+  src: url(supreme.ttf);
+}
+
+body {
+  background: black;
+}
+
+
+/* navbar */
+#nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #9146FF;
+  background: -webkit-linear-gradient(to right, #9146FF, #AF7DFF);
+  background: linear-gradient(to right, #9146FF, #AF7DFF);
+}
+
+#nav .navbar-brand {
+  font-family: nevis;
+}
+
+.nav-link {
+  font-family: supreme;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 80%;
+}
+
+.logo {
+  max-width: 150px;
+  margin-bottom: 5px;
+}
+/* ---------------------------------- */
+
+/* header */
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #ce76ef;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.herologo {
+  width: 580px;
+  animation: pulse 2s infinite;
+}
+
+.title2 {
+  margin-top: 2vh;
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.streamplatforms i {
+  margin: 0 10px;
+  margin-top: 2vh;
+}
+
+.arrowbtn {
+ position: absolute;
+ top: 86%;
+ left: 48.75%;
+}
+
+.arrowbtn a i {
+  opacity: 0.3;
+  color: white;
+}
+
+.buttons a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: #26272b;
+  padding: 5px 30px;
+  border-radius: 1px;
+  margin: 3vh 10px;
+  transition: 0.3s;
+  border-radius: 3px;
+}
+
+.buttons a:hover {
+  background: linear-gradient(to right, #9146FF, #AF7DFF);
+  transition: 0.3s;
+  padding: 5px 20px;
+}
+/* ------------------------------------------------ */
+
+/* first section */
+#section1 {
+  position: relative;
+  padding: 10vh 0;
+  background: #9146FF;
+  background: -webkit-linear-gradient(to right, #9146FF, #AF7DFF);
+  background: linear-gradient(to right, #9146FF, #AF7DFF);
+  background-image: url(imgs/leaguebanner.png);
+  background-repeat: no-repeat;
+  background-position: 50% 35%;
+  z-index: 1;
+}
+
+
+.section1p h3 {
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+.section1p h5 {
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+.section1p p {
+  font-family: Quicksand;
+  color: white
+}
+
+.guideknap {
+  color: white;
+  background-color: #26272b;
+  padding: 5px 20px;
+  border-radius: 3px;
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.guideknap:hover {
+  color: white;
+  background: linear-gradient(to right, #9146FF, #AF7DFF);
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: 0.3s;
+}
+/* ----------------------------------------------- */
+
+/*-------------- footer------------------- */
+.site-footer {
+  background-color: #26272b;
+  padding: 30px 0;
+  font-size: 15px;
+  line-height: 24px;
+  color: white;
+}
+
+.footersjov {
+  color: #efeded75;
+}
+
+.footerimg img {
+  height: 40px;
+}
+
+.kassetadcontainer {
+  padding: 10px 0;
+}
+
+/* ------------------ */
+
+
+
+/* interview */
+#interviewsection {
+  position: relative;
+  padding: 10vh 0;
+  background-color: #F6F3F6;
+  z-index: 2;
+  box-shadow: 0px 0px 17px 9px rgba(0,0,0,0.20);
+}
+
+.interviewtekst h3 {
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.interviewtekst h5 {
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.interviewtekst p {
+  font-family: quicksand;
+}
+
+.interviewtekst i {
+  margin-right: 10px;
+}
+
+.interviewtekst a {
+  text-decoration: none;
+  color: #26272b;
+  transition: 0.3s;
+}
+
+.interviewtekst a:hover {
+  color: #AF7DFF;
+  transition: 0.3s;
+}
+
+/* -------------------------------------------------- */
+
+
+/* warzonesection */
+#warzonesection {
+  position: relative;
+  background-image: url(imgs/warzonebanner3.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding-top: 5vh;
+  z-index: 1;
+}
+
+.jaxstylebox img {
+  width: 350px;
+}
+
+.jaxquote h2 {
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  font-size: 50px;
+}
+
+.jaxquote p {
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+.jaxquote p i {
+  margin: 0 5px;
+  color: white;
+  transition: 0.3s;
+}
+
+.jaxquote p i:hover {
+  color: #AF7DFF;
+  transition: 0.3s;
+}
+/* ------------------------------------------------- */

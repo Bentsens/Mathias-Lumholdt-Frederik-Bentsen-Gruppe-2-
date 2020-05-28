@@ -1,0 +1,88 @@
+@font-face {
+  font-family: nevis;
+  src: url(nevis.ttf);
+}
+
+@font-face {
+  font-family: supreme;
+  src: url(supreme.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #9146ff;
+  background: -webkit-linear-gradient(to right, #9146ff, #af7dff);
+  background: linear-gradient(to right, #9146ff, #af7dff);
+  height: 100vh;
+}
+
+#container {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(imgs/logotest2overlay.png), rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+#container .content {
+  max-width: 600px;
+  text-align: center;
+}
+
+#container .content h2 {
+  font-size: 18vw;
+  color: white;
+  line-height: 1em;
+}
+
+#container .content h4 {
+  position: relative;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: 111;
+  background: white;
+  font-weight: 300;
+  padding: 10px 20px;
+  display: inline-block;
+  font-family: nevis;
+}
+
+#container .content p {
+  color: white;
+  font-size: 1.2em;
+  font-family: nevis;
+}
+
+#container .content a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 30px;
+  background: #26272b;
+  color: white;
+  text-decoration: none;
+  margin-top: 25px;
+  border-radius: 5px;
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  transition: 0.3s;
+}
+
+#container .content a:hover {
+  background-color: #af7dff;
+  padding: 10px 20px;
+  transition: 0.3s;
+}

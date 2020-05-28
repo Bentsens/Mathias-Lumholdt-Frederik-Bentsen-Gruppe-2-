@@ -1,0 +1,319 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  animation: transitionIn 1.5s;
+}
+
+@font-face {
+  font-family: nevis;
+  src: url(nevis.ttf);
+}
+
+@font-face {
+  font-family: supreme;
+  src: url(supreme.ttf);
+}
+
+/* nav */
+#nav {
+  position: sticky;
+  top: 0;
+  z-index: 11;
+  background: #9146FF;
+  background: -webkit-linear-gradient(to right, #9146FF, #AF7DFF);
+  background: linear-gradient(to right, #9146FF, #AF7DFF);
+}
+
+#nav .navbar-brand {
+  font-family: nevis;
+}
+
+.nav-link {
+  font-family: supreme;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 80%;
+}
+
+.logo {
+  max-width: 150px;
+  margin-bottom: 5px;
+}
+
+/* -------------------------------- */
+body {
+  background-color: #F6F3F6;
+}
+
+/* header */
+#headersection {
+  position: relative;
+  background-image: url(imgs/streambanner.png);
+  background-repeat: no-repeat;
+  background-position: 50% 5%;
+  padding-top: 30vh;
+  padding-bottom: 5vh;
+  z-index: 10;
+}
+
+.header h1, .header h5 {
+  font-family: supreme;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+.header p {
+  color: white;
+  font-family: quicksand;
+}
+
+/* ---------------------------------------- */
+/* quickguide */
+#quickguidesection {
+  position: relative;
+  padding: 10vh 0;
+  z-index: 2;
+  box-shadow: 0px 0px 17px 9px rgba(0, 0, 0, 0.20);
+  background-image: url(imgs/lightningbg.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.quickguidetitles h3, .quickguidetitles h5 {
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  color: #26272b;
+}
+
+.quickguidecards {
+  margin-top: 5vh;
+}
+
+.quickguidecards h6 {
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  color: #26272b;
+  text-transform: capitalize;
+  margin-top: 2vh;
+}
+
+.quickguidecards p {
+  font-family: quicksand;
+  color: #26272b;
+}
+
+.steps {
+  max-width: 250px;
+  background-color: white;
+  padding: 30px;
+  margin: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
+}
+
+.icons {
+  width: 100px;
+}
+
+.quickguideknap {
+  margin-top: 5vh;
+}
+
+.quickguideknap a {
+  color: white;
+  text-decoration: none;
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  background-color: #26272b;
+  padding: 5px 30px;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.quickguideknap a:hover {
+  background: #AF7DFF;
+  transition: 0.3s;
+  padding: 5px 20px;
+}
+
+/* -------------------------------------- */
+/* bannerad */
+#promobanner {
+  position: relative;
+  background-image: url(imgs/rocketleaguebanner.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  z-index: 1;
+}
+
+.bannertext h2 {
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  font-size: 50px;
+}
+
+.bannertext p {
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+.bannericons i {
+  color: white;
+  margin-right: 20px
+}
+
+.bannericons a {
+  color: white;
+  text-decoration: none;
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.bannericons a:hover {
+  color: #AF7DFF;
+  transition: 0.3s;
+  margin-left: -20px;
+}
+
+/* ------------------------------------------------- */
+/* offstream */
+#streamsection {
+  position: relative;
+  padding: 10vh 0;
+  box-shadow: 0px 0px 17px 9px rgba(0, 0, 0, 0.20);
+  z-index: 2;
+}
+
+.divlinks:hover {
+  text-decoration: none;
+}
+
+.offstreamtitles h3, .offstreamtitles h5 {
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  color: #26272b;
+}
+
+.offstreamtitles {
+  font-family: quicksand;
+}
+
+.offstreamcard {
+  margin-top: 2vh;
+  margin: 15px;
+  max-width: 320px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
+  transition: all .3s ease;
+}
+
+.offstreamcard:hover {
+  transition: all .3s ease;
+  transform: translate3D(0, -1px, 0) scale(1.02);
+}
+
+.cardimg {
+  width: 320px;
+  border-radius: 10px 10px 0 0;
+}
+
+.cardtext {
+  padding: 25px;
+}
+
+.cardtext h6 {
+  font-family: Quicksand;
+  font-weight: bolder;
+  color: #26272b;
+  font-size: 24px;
+}
+
+.cardtext p {
+  font-family: quicksand;
+  color: #26272b;
+}
+
+/* -------------------------------------- */
+/* onstream */
+.onstreamsection {
+  position: relative;
+  padding-top: 10vh;
+}
+
+.onstreamtitles h3, .onstreamtitles h5 {
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  color: #26272b;
+}
+
+.onstreamtitles {
+  font-family: quicksand;
+}
+
+.onstreamcard {
+  margin-top: 2vh;
+  margin: 15px;
+  max-width: 320px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
+  transition: all .3s ease;
+}
+
+.onstreamcard:hover {
+  transition: all .3s ease;
+  transform: translate3D(0, -1px, 0) scale(1.02);
+}
+
+.cardimg {
+  width: 320px;
+  border-radius: 10px 10px 0 0;
+}
+
+.cardtext {
+  padding: 25px;
+}
+
+/* -------------------------------------- */
+/*-------------- footer------------------- */
+.site-footer {
+  background-color: #26272b;
+  padding: 30px 0;
+  font-size: 15px;
+  line-height: 24px;
+  color: white;
+}
+
+.footersjov {
+  color: #efeded75;
+}
+
+.footerimg img {
+  height: 40px;
+}
+
+.kassetadcontainer {
+  padding: 10px 0;
+}
+
+/* ------------------ */

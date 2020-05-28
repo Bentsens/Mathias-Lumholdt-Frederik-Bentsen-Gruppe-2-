@@ -1,0 +1,254 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  animation: transitionIn 1.5s;
+}
+
+
+@font-face {
+  font-family: nevis;
+  src: url(nevis.ttf);
+}
+
+@font-face {
+  font-family: supreme;
+  src: url(supreme.ttf);
+}
+
+/* nav */
+#nav {
+  position: sticky;
+  top: 0;
+  z-index: 11;
+  background: #9146FF;
+  background: -webkit-linear-gradient(to right, #9146FF, #AF7DFF);
+  background: linear-gradient(to right, #9146FF, #AF7DFF);
+}
+
+#nav .navbar-brand {
+  font-family: nevis;
+}
+
+.nav-link {
+  font-family: supreme;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 80%;
+}
+
+.logo {
+  max-width: 150px;
+  margin-bottom: 5px;
+}
+/* ------------------------------------ */
+
+body {
+  background-color: #F6F3F6;
+}
+
+#headersection {
+  position: relative;
+  background-image: url(imgs/minecraftbanner.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding-top: 30vh;
+  padding-bottom: 5vh;
+  z-index: 10;
+}
+
+.header h1, .header h5 {
+  font-family: supreme;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+.header p {
+  color: white;
+  font-family: quicksand;
+}
+/* ---------------------------------------- */
+
+/* contact */
+
+#contactsection {
+  background-image: url(imgs/sendbg.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.contactsection {
+  background-color: #f1f2f4;
+  padding: 10vh;
+}
+
+.contactwindow {
+  background: white;
+  border-radius: 10px;
+  padding-bottom: 1.5rem;
+  box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+}
+
+.contactdetailsheader h3 {
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  color: #26272b;
+  margin-bottom: 3vh;
+}
+
+.contactheader {
+  padding: 0 15px;
+}
+
+.contacticon {
+  vertical-align: top;
+}
+
+.contacticon i {
+  font-size: 45px;
+  vertical-align: top;
+  margin: 0 10px;
+}
+
+.detailtext h5 {
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  color: #26272b;
+}
+
+.detailtext p {
+  font-family: quicksand;
+}
+
+
+.leftsidecontact {
+  margin-bottom: 5vh;
+}
+
+.contactdetails img {
+  width: 150px;
+  margin: 0 10px;
+}
+
+.socialemedia {
+  margin-top: 10vh;
+}
+
+.socialemedia h3 {
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  color: #26272b;
+}
+
+.socialmediaicons a {
+  color: #26272b;
+  font-size: 40px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 2vh;
+  transition: 0.3s;
+}
+
+.socialmediaicons a:hover {
+  color: #AF7DFF;
+  transition: 0.3s;
+}
+
+.contacttitle {
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  color: #26272b;
+}
+
+.sendbutton a {
+  color: white;
+}
+
+.btn3 {
+  font-family: supreme;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  cursor: pointer;
+  padding: 5px 30px;
+  background-color: #26272b;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.sendbutton a:hover {
+  color: white;
+  padding: 5px 20px;
+  transition: 0.3s;
+  background: #AF7DFF;
+}
+
+.sendbutton {
+  margin-top: 2vh;
+}
+
+.clabel {
+  font-family: Quicksand;
+  margin-top: 2vh;
+}
+
+.cundertitle {
+  font-family: Quicksand;
+}
+
+/* ----------------------------------------------------- */
+
+/* googlemap */
+.map-container {
+  overflow: hidden;
+  padding-bottom: 400px;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  height: 400px;
+}
+
+/* -------------------------------------------------- */
+
+
+
+
+
+
+/*-------------- footer------------------- */
+.site-footer {
+  background-color: #26272b;
+  padding: 30px 0;
+  font-size: 15px;
+  line-height: 24px;
+  color: white;
+}
+
+.footersjov {
+  color: #efeded75;
+}
+
+.footerimg img {
+  height: 40px;
+}
+
+.kassetadcontainer {
+  padding: 10px 0;
+}
+
+/* ------------------ */
